@@ -22,11 +22,14 @@ real-world business.  The output is:
 
 ```
 src/
-├── __init__.py      # package marker
-├── normalize.py     # field normalization (name, address, country)
-├── features.py      # pairwise similarity feature engineering
-├── matcher.py       # EntityMatcher: train / load / predict
-└── pipeline.py      # end-to-end orchestration (CLI entry point)
+├── __init__.py            # package marker
+├── normalize.py           # field normalization (name, address, country)
+├── features.py            # pairwise similarity feature engineering
+├── matcher.py             # EntityMatcher: train / load / predict
+├── pipeline.py            # end-to-end orchestration (CLI entry point)
+├── evaluate.py            # macro-averaged F0.5 evaluation tool
+├── validate_outputs.py    # 15-point submission format validator
+└── package_submission.py  # submission ZIP archive packager
 ```
 
 ---
@@ -147,6 +150,37 @@ python src/pipeline.py \
 output/
 ├── matching_results.tsv   # source1_entity_id \t matched_entity_ids
 └── candidate_pairs.tsv    # source1_entity_id \t candidate_entity_ids
+```
+
+### 4.5 Local Evaluation (`evaluate.py`)
+
+Compute macro-averaged F₀.₅ score against ground truth pairs:
+
+```bash
+python src/evaluate.py \
+  --predictions output/matching_results.tsv \
+  --ground_truth dataset/train/train_ground_truth.tsv
+```
+
+### 4.6 Submission Validation (`validate_outputs.py`)
+
+Run 15-point format verification on generated outputs:
+
+```bash
+python src/validate_outputs.py \
+  --matching output/matching_results.tsv \
+  --candidates output/candidate_pairs.tsv
+```
+
+### 4.7 Package Submission (`package_submission.py`)
+
+Bundle outputs and source code into the final submission ZIP archive:
+
+```bash
+python src/package_submission.py \
+  --team-name BER_Team \
+  --output-dir output \
+  --out-zip submission.zip
 ```
 
 ---
