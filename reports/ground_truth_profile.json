@@ -1,0 +1,757 @@
+{
+  "ground_truth": {
+    "total_rows": 2206821,
+    "unique_source1_ids": 2206821,
+    "duplicate_source1_ids": 0,
+    "duplicate_source1_rows": 0,
+    "invalid_source1_ids": 0,
+    "empty_match_rows": 123247,
+    "exactly_one_match_rows": 119157,
+    "multiple_match_rows": 1964417,
+    "total_match_ids": 7638365,
+    "s2_match_ids": 3693619,
+    "s3_match_ids": 3944746,
+    "unknown_match_ids": 0,
+    "source1_with_at_least_one_s2": 1919076,
+    "source1_with_at_least_one_s3": 1940545,
+    "source1_with_both_s2_and_s3": 1776047,
+    "duplicate_match_id_rows": 0,
+    "empty_tokens": 0,
+    "total_match_distribution": {
+      "0": 123247,
+      "1": 119157,
+      "2": 375212,
+      "3": 530841,
+      "4": 484115,
+      "5": 321957,
+      "6": 164868,
+      "7": 63968,
+      "8": 18680,
+      "9": 4205,
+      "10": 534,
+      "11": 37
+    },
+    "s2_match_distribution": {
+      "0": 287745,
+      "1": 789108,
+      "2": 652779,
+      "3": 333957,
+      "4": 119078,
+      "5": 24154
+    },
+    "s3_match_distribution": {
+      "0": 266276,
+      "1": 716417,
+      "2": 668375,
+      "3": 372443,
+      "4": 145116,
+      "5": 35378,
+      "6": 2816
+    }
+  },
+  "validation": {
+    "S1": {
+      "referenced_ids": 2206821,
+      "missing_ids": 0,
+      "valid": true
+    },
+    "S2": {
+      "referenced_ids": 3693619,
+      "missing_ids": 0,
+      "valid": true
+    },
+    "S3": {
+      "referenced_ids": 3944746,
+      "missing_ids": 0,
+      "valid": true
+    }
+  },
+  "examples": {
+    "empty_matches": [
+      "S1-302869473",
+      "S1-262997549",
+      "S1-508022910",
+      "S1-666499407",
+      "S1-965524997",
+      "S1-830177070",
+      "S1-202262115",
+      "S1-625699510",
+      "S1-604865181",
+      "S1-88224713",
+      "S1-719571188",
+      "S1-403692077",
+      "S1-298796171",
+      "S1-107023539",
+      "S1-785467099",
+      "S1-445964147",
+      "S1-987010937",
+      "S1-274119005",
+      "S1-281769561",
+      "S1-733034026",
+      "S1-935930929",
+      "S1-219801000",
+      "S1-147651446",
+      "S1-349961763",
+      "S1-814956519"
+    ],
+    "exactly_one_match": [
+      {
+        "source1_entity_id": "S1-116043204",
+        "matched_entity_ids": [
+          "S3-85523430"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-473377609",
+        "matched_entity_ids": [
+          "S3-433876173"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-439203009",
+        "matched_entity_ids": [
+          "S3-967165288"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-973290215",
+        "matched_entity_ids": [
+          "S3-925530888"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-649259801",
+        "matched_entity_ids": [
+          "S2-654066445"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-862038247",
+        "matched_entity_ids": [
+          "S2-451274541"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-89774084",
+        "matched_entity_ids": [
+          "S2-198723291"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-424050882",
+        "matched_entity_ids": [
+          "S3-37198119"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-971813156",
+        "matched_entity_ids": [
+          "S3-394463058"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-106072003",
+        "matched_entity_ids": [
+          "S2-699555547"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-350234058",
+        "matched_entity_ids": [
+          "S3-90766911"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-288276341",
+        "matched_entity_ids": [
+          "S3-815540739"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-887125153",
+        "matched_entity_ids": [
+          "S2-448398036"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-745867296",
+        "matched_entity_ids": [
+          "S2-43113841"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-671241040",
+        "matched_entity_ids": [
+          "S2-904226109"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-888185705",
+        "matched_entity_ids": [
+          "S3-521406491"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-65040114",
+        "matched_entity_ids": [
+          "S2-66755406"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-705293979",
+        "matched_entity_ids": [
+          "S3-967828286"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-935335906",
+        "matched_entity_ids": [
+          "S2-577689878"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-680347141",
+        "matched_entity_ids": [
+          "S3-315706239"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-471318994",
+        "matched_entity_ids": [
+          "S3-495325432"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-756873540",
+        "matched_entity_ids": [
+          "S3-532576288"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-445268029",
+        "matched_entity_ids": [
+          "S2-371928720"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-342623084",
+        "matched_entity_ids": [
+          "S3-638458303"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-977682665",
+        "matched_entity_ids": [
+          "S2-816951244"
+        ]
+      }
+    ],
+    "multiple_matches": [
+      {
+        "source1_entity_id": "S1-965667",
+        "matched_entity_ids": [
+          "S2-681193310",
+          "S2-743505751",
+          "S3-775321672",
+          "S3-11291185",
+          "S3-860443364"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-55344266",
+        "matched_entity_ids": [
+          "S2-249013014",
+          "S2-197070651",
+          "S3-478195123",
+          "S3-384364074"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-343815751",
+        "matched_entity_ids": [
+          "S2-790675320",
+          "S2-479876582",
+          "S3-878454467"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-656753428",
+        "matched_entity_ids": [
+          "S2-153058913",
+          "S2-24659151",
+          "S3-679606215"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-102811957",
+        "matched_entity_ids": [
+          "S2-478959098",
+          "S2-553508714",
+          "S2-625774905",
+          "S3-728090388",
+          "S3-928796641",
+          "S3-449308785"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-18727616",
+        "matched_entity_ids": [
+          "S2-755677256",
+          "S3-187831601",
+          "S3-641489370",
+          "S3-476250621"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-318373630",
+        "matched_entity_ids": [
+          "S2-660036492",
+          "S3-804600254"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-86989137",
+        "matched_entity_ids": [
+          "S3-274817120",
+          "S3-312496301"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-29845983",
+        "matched_entity_ids": [
+          "S2-648035184",
+          "S3-588502663"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-789009573",
+        "matched_entity_ids": [
+          "S2-383871912",
+          "S3-74481402",
+          "S3-576451439"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-730934468",
+        "matched_entity_ids": [
+          "S2-356983532",
+          "S3-352439310"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-7293388",
+        "matched_entity_ids": [
+          "S2-7028416",
+          "S2-442723188",
+          "S2-157073701",
+          "S3-523120965"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-546142636",
+        "matched_entity_ids": [
+          "S2-487600131",
+          "S2-582477216",
+          "S2-392804085",
+          "S3-200008747",
+          "S3-729771680",
+          "S3-249331830"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-274126313",
+        "matched_entity_ids": [
+          "S2-736616474",
+          "S2-680265918",
+          "S2-51486805",
+          "S3-925631694",
+          "S3-461175723",
+          "S3-850112871"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-145361722",
+        "matched_entity_ids": [
+          "S2-120366543",
+          "S2-939389287",
+          "S3-96572514"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-503957000",
+        "matched_entity_ids": [
+          "S2-994658326",
+          "S2-235117490",
+          "S2-353308450",
+          "S2-173295926",
+          "S3-858763214",
+          "S3-33665521",
+          "S3-555791452"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-692000596",
+        "matched_entity_ids": [
+          "S2-580419223",
+          "S3-164220452"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-561341312",
+        "matched_entity_ids": [
+          "S2-483615364",
+          "S3-619529814"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-777597828",
+        "matched_entity_ids": [
+          "S2-836452886",
+          "S3-413669121"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-282467635",
+        "matched_entity_ids": [
+          "S2-938895481",
+          "S3-138350041"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-727602285",
+        "matched_entity_ids": [
+          "S2-976870196",
+          "S2-947230367",
+          "S2-23141904",
+          "S2-138660620",
+          "S3-204655096"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-65263544",
+        "matched_entity_ids": [
+          "S2-881122703",
+          "S2-998270769",
+          "S2-180463458",
+          "S3-403476502",
+          "S3-102573485",
+          "S3-350074034"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-840162906",
+        "matched_entity_ids": [
+          "S2-129529678",
+          "S3-800978181",
+          "S3-139858754",
+          "S3-762681944",
+          "S3-799520471"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-264156494",
+        "matched_entity_ids": [
+          "S2-184087846",
+          "S3-562014765",
+          "S3-544213330"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-567308588",
+        "matched_entity_ids": [
+          "S2-191200521",
+          "S2-964733072",
+          "S2-226928496",
+          "S3-595927967",
+          "S3-21806256",
+          "S3-764465670"
+        ]
+      }
+    ],
+    "s1_with_both_sources": [
+      {
+        "source1_entity_id": "S1-965667",
+        "S2_matches": [
+          "S2-681193310",
+          "S2-743505751"
+        ],
+        "S3_matches": [
+          "S3-775321672",
+          "S3-11291185",
+          "S3-860443364"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-55344266",
+        "S2_matches": [
+          "S2-249013014",
+          "S2-197070651"
+        ],
+        "S3_matches": [
+          "S3-478195123",
+          "S3-384364074"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-343815751",
+        "S2_matches": [
+          "S2-790675320",
+          "S2-479876582"
+        ],
+        "S3_matches": [
+          "S3-878454467"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-656753428",
+        "S2_matches": [
+          "S2-153058913",
+          "S2-24659151"
+        ],
+        "S3_matches": [
+          "S3-679606215"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-102811957",
+        "S2_matches": [
+          "S2-478959098",
+          "S2-553508714",
+          "S2-625774905"
+        ],
+        "S3_matches": [
+          "S3-728090388",
+          "S3-928796641",
+          "S3-449308785"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-18727616",
+        "S2_matches": [
+          "S2-755677256"
+        ],
+        "S3_matches": [
+          "S3-187831601",
+          "S3-641489370",
+          "S3-476250621"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-318373630",
+        "S2_matches": [
+          "S2-660036492"
+        ],
+        "S3_matches": [
+          "S3-804600254"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-29845983",
+        "S2_matches": [
+          "S2-648035184"
+        ],
+        "S3_matches": [
+          "S3-588502663"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-789009573",
+        "S2_matches": [
+          "S2-383871912"
+        ],
+        "S3_matches": [
+          "S3-74481402",
+          "S3-576451439"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-730934468",
+        "S2_matches": [
+          "S2-356983532"
+        ],
+        "S3_matches": [
+          "S3-352439310"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-7293388",
+        "S2_matches": [
+          "S2-7028416",
+          "S2-442723188",
+          "S2-157073701"
+        ],
+        "S3_matches": [
+          "S3-523120965"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-546142636",
+        "S2_matches": [
+          "S2-487600131",
+          "S2-582477216",
+          "S2-392804085"
+        ],
+        "S3_matches": [
+          "S3-200008747",
+          "S3-729771680",
+          "S3-249331830"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-274126313",
+        "S2_matches": [
+          "S2-736616474",
+          "S2-680265918",
+          "S2-51486805"
+        ],
+        "S3_matches": [
+          "S3-925631694",
+          "S3-461175723",
+          "S3-850112871"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-145361722",
+        "S2_matches": [
+          "S2-120366543",
+          "S2-939389287"
+        ],
+        "S3_matches": [
+          "S3-96572514"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-503957000",
+        "S2_matches": [
+          "S2-994658326",
+          "S2-235117490",
+          "S2-353308450",
+          "S2-173295926"
+        ],
+        "S3_matches": [
+          "S3-858763214",
+          "S3-33665521",
+          "S3-555791452"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-692000596",
+        "S2_matches": [
+          "S2-580419223"
+        ],
+        "S3_matches": [
+          "S3-164220452"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-561341312",
+        "S2_matches": [
+          "S2-483615364"
+        ],
+        "S3_matches": [
+          "S3-619529814"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-777597828",
+        "S2_matches": [
+          "S2-836452886"
+        ],
+        "S3_matches": [
+          "S3-413669121"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-282467635",
+        "S2_matches": [
+          "S2-938895481"
+        ],
+        "S3_matches": [
+          "S3-138350041"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-727602285",
+        "S2_matches": [
+          "S2-976870196",
+          "S2-947230367",
+          "S2-23141904",
+          "S2-138660620"
+        ],
+        "S3_matches": [
+          "S3-204655096"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-65263544",
+        "S2_matches": [
+          "S2-881122703",
+          "S2-998270769",
+          "S2-180463458"
+        ],
+        "S3_matches": [
+          "S3-403476502",
+          "S3-102573485",
+          "S3-350074034"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-840162906",
+        "S2_matches": [
+          "S2-129529678"
+        ],
+        "S3_matches": [
+          "S3-800978181",
+          "S3-139858754",
+          "S3-762681944",
+          "S3-799520471"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-264156494",
+        "S2_matches": [
+          "S2-184087846"
+        ],
+        "S3_matches": [
+          "S3-562014765",
+          "S3-544213330"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-567308588",
+        "S2_matches": [
+          "S2-191200521",
+          "S2-964733072",
+          "S2-226928496"
+        ],
+        "S3_matches": [
+          "S3-595927967",
+          "S3-21806256",
+          "S3-764465670"
+        ]
+      },
+      {
+        "source1_entity_id": "S1-292935703",
+        "S2_matches": [
+          "S2-195749344",
+          "S2-617410789",
+          "S2-516200703"
+        ],
+        "S3_matches": [
+          "S3-421403180",
+          "S3-942647343",
+          "S3-533626303"
+        ]
+      }
+    ],
+    "duplicate_match_ids": [],
+    "unknown_match_ids": [],
+    "invalid_s1_ids": [],
+    "empty_tokens": []
+  },
+  "missing_id_examples": {
+    "S1": [],
+    "S2": [],
+    "S3": []
+  }
+}
